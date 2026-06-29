@@ -1,4 +1,4 @@
-// Attendre le chargement complet du DOM (Contrainte Étape 5)
+// Attendre le chargement complet du DOM 
 document.addEventListener("DOMContentLoaded", () => {
     initApp();
 });
@@ -210,14 +210,14 @@ async function openModal(movieId) {
     }
     document.getElementById("modal-boxoffice").textContent = `Recettes au box-office: ${boxOfficeFormatted}`;
 
-    // Bloc 2 : Réalisateurs (Intitulé exact demandé)
+    // Bloc 2 : Réalisateurs 
     const directorsList = movie.directors ? movie.directors.join(", ") : "N/A";
     document.getElementById("modal-directors").innerHTML = `<strong>Réalisé par :</strong><br>${directorsList}`;
 
     // Bloc 3 : Description
     document.getElementById("modal-desc").textContent = movie.long_description || movie.description || "Aucun résumé disponible.";
     
-    // Bloc 4 : Acteurs (Intitulé exact demandé)
+    // Bloc 4 : Acteurs 
     const actorsList = movie.actors ? movie.actors.join(", ") : "N/A";
     document.getElementById("modal-actors").innerHTML = `<strong>Avec :</strong><br>${actorsList}`;
 
