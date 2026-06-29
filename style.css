@@ -344,7 +344,7 @@ section h2 {
   color: #000000;
 }
 
-/* 🎬 Bloc 2 : Réalisateurs (Nettoyé pour le flux PC) */
+/* 🎬 Bloc 2 : Réalisateurs */
 .directors p {
   font-family: 'Oswald', sans-serif;
   font-size: 18px;
@@ -353,7 +353,7 @@ section h2 {
   color: #000000;
 }
 
-/* 📖 Bloc 3 : Description (Nettoyé pour le flux PC) */
+/* 📖 Bloc 3 : Description */
 .description {
   max-width: 100%;
   box-sizing: border-box;
@@ -369,7 +369,7 @@ section h2 {
   color: #000000;
 }
 
-/* 👥 Bloc 4 : Acteurs (Nettoyé pour le flux PC) */
+/* 👥 Bloc 4 : Acteurs  */
 .actors p {
   font-family: 'Oswald', sans-serif;
   font-size: 16px;
@@ -398,7 +398,7 @@ section h2 {
   background-color: #c50808;
 }
 
-/* Petit ajustement pour le mobile */
+/* Ajustement pour le mobile */
 @media (max-width: 768px) {
   .modal-close-btn {
     align-self: center;      /* Centré sur mobile */
@@ -406,7 +406,7 @@ section h2 {
   }
 }
 
-/* 📱 Version Responsive Mobile & TABLETTE (Fidèle à la Maquette) */
+/* Version Responsive Mobile & TABLETTE */
 @media (max-width: 900px) { /* 👈 Remplacé 768px par 900px pour englober la version tablette */
   
   .modal-content {
