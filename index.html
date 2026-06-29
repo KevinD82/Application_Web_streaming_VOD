@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JustStreamIt</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header id="video-banner">
+    <img src="images/image1.png" alt="Logo JustStreamIt" id="banner-logo">
+    <span id="banner-text">Vidéos à la demande</span>
+  </header>
+
+  <main>
+
+    <h2 class="section-title">Meilleur film</h2>
+
+    <section id="best-movie">
+      <div class="best-movie-content">
+        <img id="best-movie-img" src="" alt="Affiche du film">
+        <div class="best-movie-text">
+          <h3 id="best-movie-title"></h3>
+          <p id="best-movie-desc"></p>
+          <button id="best-movie-btn">Détails</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="top-rated">
+      <h2>Films les mieux notés</h2>
+      <div class="movies-grid"></div>
+      <button class="toggle-btn">Voir plus</button>
+    </section>
+
+    <section id="category-1">
+      <h2>Catégorie 1</h2>
+      <div class="movies-grid"></div>
+      <button class="toggle-btn">Voir plus</button>
+    </section>
+
+    <section id="category-2">
+      <h2>Catégorie 2</h2>
+      <div class="movies-grid"></div>
+      <button class="toggle-btn">Voir plus</button>
+    </section>
+
+    <section id="category-dynamic">
+      <h2>Autres catégories</h2>
+      <select id="genre-select"></select>
+      <div class="movies-grid"></div>
+      <button class="toggle-btn">Voir plus</button>
+    </section>
+
+    <section id="category-dynamic-2">
+      <h2>Catégorie personnalisée</h2>
+      <select id="genre-select-2"></select>
+      <div class="movies-grid"></div>
+      <button class="toggle-btn">Voir plus</button>
+    </section>
+
+  </main>
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      
+      <img id="modal-img" src="" alt="Affiche du film">
+      
+      <div class="modal-text">
+        
+  <div class="modal-general-info">
+          <h3 id="modal-title"></h3>
+          <p id="modal-year-genre"></p>
+          <p id="modal-rated-duration-country"></p>
+          <p id="modal-imdb"></p>
+          <p id="modal-boxoffice"></p>
+        </div>
+        
+        <div class="directors">
+          <p id="modal-directors"></p>
+        </div>
+        
+        <div class="description">
+          <p id="modal-desc"></p>
+        </div>
+        
+        <div class="actors">
+          <p id="modal-actors"></p>
+        </div>
+
+        <button id="modal-close" class="modal-close-btn">Fermer</button>
+
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>JustStreamIt © 2026</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
