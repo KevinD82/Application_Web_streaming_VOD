@@ -19,7 +19,6 @@ Ce projet a été réalisé dans le cadre de la formation Développeur d'Applica
 
 Pour faire fonctionner ce projet sur votre machine, vous devez avoir installé :
 * **Python 3.x**
-* **Git**
 * Un navigateur web moderne (Chrome, Firefox, Edge, etc.)
 
 ---
