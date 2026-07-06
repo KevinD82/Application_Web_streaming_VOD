@@ -62,6 +62,7 @@ async function displayBestMovie() {
         img.onerror = () => img.src = "images/Cinema.png";
         title.textContent = bestMovie.title;
 
+        // Récupération de la description longue si disponible
         const detailResponse = await fetch(`http://127.0.0.1:8000/api/v1/titles/${bestMovie.id}`);
         const detailMovie = await detailResponse.json();
 
